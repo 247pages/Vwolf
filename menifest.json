@@ -1,7 +1,7 @@
 {
   "name": "Vwolf",
   "short_name": "Vwolf",
-  "start_url": ".",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#000436",
   "description": "",
