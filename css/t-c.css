@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  -webkit-user-select: none; /* Chrome, Safari, Opera */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* Internet Explorer/Edge */
+  user-select: none;         /* Non-prefixed version, currently supported by most browsers */
+}
+
+img {
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-drag: none;
+  pointer-events: none;
+}
+
+/* Enable selection for form elements */
+input,
+textarea {
+  -webkit-user-select: text; /* Allow text selection in Chrome, Safari, Opera */
+  -moz-user-select: text;    /* Allow text selection in Firefox */
+  -ms-user-select: text;     /* Allow text selection in IE/Edge */
+  user-select: text;         /* Allow text selection for modern browsers */
+  pointer-events: auto;      /* Enable pointer events for form elements */
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #0056b3;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

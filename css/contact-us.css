@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  -webkit-user-select: none; /* Chrome, Safari, Opera */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* Internet Explorer/Edge */
+  user-select: none;         /* Non-prefixed version, currently supported by most browsers */
+}
+
+img {
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-drag: none;
+  pointer-events: none;
+}
+
+/* Enable selection for form elements */
+input,
+textarea {
+  -webkit-user-select: text; /* Allow text selection in Chrome, Safari, Opera */
+  -moz-user-select: text;    /* Allow text selection in Firefox */
+  -ms-user-select: text;     /* Allow text selection in IE/Edge */
+  user-select: text;         /* Allow text selection for modern browsers */
+  pointer-events: auto;      /* Enable pointer events for form elements */
+}
+
+
+.contact-details-container {
+    max-width: 600px;height:1000px;
+    margin: 0px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align text */
+    animation: fadeIn 1s ease-in; /* Fade in animation */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.email-container {
+    background: #007bff; /* Blue background for the email container */
+    padding: 15px;
+    border-radius: 5px;
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.email-container:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.email-link {
+    color: white; /* White text for email link */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Larger font size for visibility */
+}
+
+.email-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
