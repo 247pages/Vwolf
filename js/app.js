@@ -136,7 +136,7 @@ window.signOutUser = async function() {
 document.addEventListener('DOMContentLoaded', () => {
     const isAuthenticated = localStorage.getItem('isAuthenticated');
     if (isAuthenticated === 'true') {
-        window.location.href = '/Vwolf/feed.html'; // Redirect to the feed page
+        window.location.href = 'https://247pages.github.io/Vwolf/feed.html'; // Redirect to the feed page
     }
 });
 
